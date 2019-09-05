@@ -10,17 +10,17 @@ class CalcController {
     initialize() {
     }
 
-    get displayTime() { () => this._timeEl.innerHTML }
+    get displayTime() { return this._timeEl.innerHTML }
     set displayTime(value) {
         this._timeEl.innerHTML = value
     }
 
-    get displayDate() { () => this._dateEl.innerHTML }
+    get displayDate() { return this._dateEl.innerHTML }
     set displayDate(value) {
         this._dateEl.innerHTML = value
     }
 
-    get displayCalc() { () => this._displayCalcEl.innerHTML }
+    get displayCalc() { return this._displayCalcEl.innerHTML }
     set displayCalc(value) {
         this._displayCalcEl.innerHTML = value
     }
